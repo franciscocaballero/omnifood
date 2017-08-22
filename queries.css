@@ -12,9 +12,9 @@
 
 /* Small tablet-big tablet: from 767px to 1023px */
 @media only screen and (max-width: 1023px) {
-  body {
-    font-size: 18px;
-  }
+
+  body {font-size: 18px;}
+
   section {  padding: 60px 0;}
 
   .long-copy {
@@ -38,17 +38,13 @@
 .city-feature { font-size: 90%; }
 
 .plan-box {
-  width: 100%;
-  margin-left: 0%;
+    width: 100%;
+    margin-left: 0%;
  }
 
- .plan-price {
-   font-size: 250%;
- }
+ .plan-price { font-size: 250%; }
 
- .contact-form {
-   width: 80%;
- }
+ .contact-form { width: 80%; }
 }
 
 
@@ -66,17 +62,44 @@
   }
 
   .main-nav { display: none; }
+
+  .mobile-nav-icon { display: inline-block; }
+
+  .main-nav {
+    float: left;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+
+  .main-nav li { display: block; }
+
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    padding: 10px 0;
+    display: block;
+    border: 0;
+    font-size: 100%;
+   }
+
+   .sticky .main-nav { margin-top: 10px; }
+
+  .sticky .mobile-nav-icon { margin-top: 10px;}
+
+  .sticky .mobile-nav-icon i { color: #555; }
+
   h1 { font-size: 180%; }
-  h2{ font-size: 150%; }
+
+  h2 { font-size: 150%; }
+
   .long-copy {
     width: 80%;
     margin-left: 0%;
   }
   .steps-box:first-child { text-align: center; }
 
-  .app-screen{
-    width: 40%;
-  }
+  .app-screen{ width: 40%;}
+
   .works-step div {
     width: 40px;
     height: 40px;
