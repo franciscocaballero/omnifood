@@ -100,9 +100,24 @@ $('.mobile-nav-icon').click(function() {
     icon.removeClass('ion-close-round')
   }
 
+});
 
+/*--------------MAPS------------------*/
 
+var map = new GMaps({
+  div: '.map',
+  lat: 38.7809853,
+  lng:-77.05,
+  zoom: 12
+});
 
+map.addMarker({
+  lat: 38.7809853,
+  lng: -77.1003165,
+  title: 'Washington D.C',
+  infoWindow: {
+    content: '<p>Our D.C HQ</p>'
+  }
 });
 
 });

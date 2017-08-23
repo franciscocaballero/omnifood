@@ -369,10 +369,15 @@
 </div>
 </section>
 
-<section class ='section-form'>
+<div class='map-box'>
+
+<div class='map'></div>
+
+<div class='form-box'>
 <div class ='row'>
   <h2>We're happy to hear from you.</h2>
 </div>
+
 <div class ='row'>
 
 <form method='post' action='#' class='contact-form'>
@@ -385,7 +390,7 @@
       <div class='col span-2-of-3'>
         <input type="text" name='name' id='name' placeholder="Your name" required>
       </div>
-
+</div>
       <div class ='row'>
         <div class= 'col span-1-of-3'>
           <label for='email'>Email</label>
@@ -409,7 +414,7 @@
             <option value="other">Other</option>
         </select>
       </div>
-
+</div>
       <div class ='row'>
         <div class= 'col span-1-of-3'>
           <label>NewsLetter? </label>
@@ -418,7 +423,7 @@
         <div class='col span-2-of-3'>
         <input type ='checkbox' name='news' id='news' checked>Yes ,please
         </div>
-
+</div>
         <div class ='row'>
           <div class= 'col span-1-of-3'>
             <label>Drop us a line.</label>
@@ -427,7 +432,7 @@
           <div class='col span-2-of-3'>
            <textarea name ='message' placeholder="your message"></textarea>
           </div>
-
+</div>
           <div class ='row'>
             <div class='col span-1-of-3'>
               <label>&nbsp;</label>
@@ -436,10 +441,12 @@
             <div class= 'col span-2-of-3'>
              <input type ='submit' value='Send it!'>
             </div>
+          </div>
    </form>
+
+  </div>
  </div>
- </div>
-</section>
+</div>
 
 <footer>
   <div class ='row'>
@@ -465,9 +472,9 @@
   </div>
 
   <div class= 'row'>
-  <p>
+    <p>
     Copyright &copy; 2017 by Omnifood. All rights resevered.
-  </p>
+    </p>
   </div>
 </footer>
 
@@ -477,6 +484,8 @@
 <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js" ></script>
 <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src='js/jquery.waypoints.min.js'></script>
+<script src="http://maps.google.com/maps/api/js"></script>
+<script src='js/gmaps.js'></script>
 <script src='app.js'></script>
   </body>
 </html>
